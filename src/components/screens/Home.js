@@ -12,7 +12,7 @@ const Home = () => {
           />
         </div>
         <div className="card-content">
-          <i class="material-icons">favorite</i>
+          <i className="material-icons">favorite</i>
           <h6>title</h6>
           <p>this is an amazing post</p>
           <input type="text" placeholder="add a comment" />
@@ -28,7 +28,7 @@ const Home = () => {
           />
         </div>
         <div className="card-content">
-          <i class="material-icons">favorite</i>
+          <i className="material-icons">favorite</i>
           <h6>title</h6>
           <p>this is an amazing post</p>
           <input type="text" placeholder="add a comment" />
@@ -44,7 +44,7 @@ const Home = () => {
           />
         </div>
         <div className="card-content">
-          <i class="material-icons">favorite</i>
+          <i className="material-icons">favorite</i>
           <h6>title</h6>
           <p>this is an amazing post</p>
           <input type="text" placeholder="add a comment" />
