@@ -60,15 +60,13 @@ const Signin = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
-          type="text"
+          type="password"
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         <button
           className="btn waves-effect waves-light #64b5f6 blue darken-1"
-          type="submit"
-          name="action"
           onClick={() => PostData()}
         >
           Login
