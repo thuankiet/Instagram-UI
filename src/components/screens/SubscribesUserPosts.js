@@ -16,7 +16,7 @@ const Home = () => {
       .then((result) => {
         setData(result.posts);
       });
-  });
+  }, []);
 
   const likePost = (id) => {
     fetch("/like", {

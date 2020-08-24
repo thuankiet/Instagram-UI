@@ -19,6 +19,7 @@ import { reducer, initialState } from "./reducers/userReducer";
 export const UserContext = createContext();
 
 const Routing = () => {
+  
   const history = useHistory();
   const { state, dispatch } = useContext(UserContext); // using app's value(state and dispatch)
   useEffect(() => {
@@ -29,6 +30,7 @@ const Routing = () => {
       history.push("/signin");
     }
   }, []);
+
   return (
     <Switch>
       <Route path="/" exact>

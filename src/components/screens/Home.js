@@ -16,7 +16,7 @@ const Home = () => {
       .then((result) => {
         setData(result.posts);
       });
-  });
+  }, []);
 
   const likePost = (id) => {
     fetch("/like", {
@@ -145,7 +145,9 @@ const Home = () => {
               <img alt="cardimage" src={item.photo} />
             </div>
             <div className="card-content">
-              <i className="material-icons">favorite</i>
+              <i className="material-icons" style={{ color: "red" }}>
+                favorite
+              </i>
               {item.likes.includes(state._id) ? (
                 <i
                   className="material-icons"
